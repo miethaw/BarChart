@@ -1,15 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import JustTest from './features/justTest';
-import MyDropDown from './features/dropdown';
+
+import ChartContainer from '../src/features/BarChart/Container/chartContainer.js'
 
 function App() {
   return (
-    <div className="App">
-     <MyDropDown />
-    </div>
+      <div className="container">
+        
+     
+      <ChartContainer />
+     
+  </div>
   );
 }
 
 export default App;
+

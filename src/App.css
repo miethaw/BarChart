@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+/* rect{
+fill:none; stroke:black;
+}
+.rectbottom{
+  stroke-dasharray: 100,50;
+} */
